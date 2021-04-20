@@ -14,6 +14,8 @@
 		BF26268925EECB4100C0C1BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF26268725EECB4100C0C1BB /* LaunchScreen.storyboard */; };
 		BF26269425EECB4100C0C1BB /* HackwichSixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF26269325EECB4100C0C1BB /* HackwichSixTests.swift */; };
 		BF26269F25EECB4100C0C1BB /* HackwichSixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF26269E25EECB4100C0C1BB /* HackwichSixUITests.swift */; };
+		BF28ECB3262F67590079C929 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF28ECB2262F67590079C929 /* Property List.plist */; };
+		BF28ECB5262F6D580079C929 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF28ECB4262F6D580079C929 /* detailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		BF26269A25EECB4100C0C1BB /* HackwichSixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackwichSixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF26269E25EECB4100C0C1BB /* HackwichSixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichSixUITests.swift; sourceTree = "<group>"; };
 		BF2626A025EECB4100C0C1BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF28ECB2262F67590079C929 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		BF28ECB4262F6D580079C929 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +101,12 @@
 		BF26267D25EECB3F00C0C1BB /* HackwichSix */ = {
 			isa = PBXGroup;
 			children = (
+				BF28ECB2262F67590079C929 /* Property List.plist */,
 				BF26267E25EECB3F00C0C1BB /* AppDelegate.swift */,
 				BF26268025EECB3F00C0C1BB /* ViewController.swift */,
 				BF26268225EECB3F00C0C1BB /* Main.storyboard */,
 				BF26268525EECB4100C0C1BB /* Assets.xcassets */,
+				BF28ECB4262F6D580079C929 /* detailViewController.swift */,
 				BF26268725EECB4100C0C1BB /* LaunchScreen.storyboard */,
 				BF26268A25EECB4100C0C1BB /* Info.plist */,
 			);
@@ -231,6 +237,7 @@
 			files = (
 				BF26268925EECB4100C0C1BB /* LaunchScreen.storyboard in Resources */,
 				BF26268625EECB4100C0C1BB /* Assets.xcassets in Resources */,
+				BF28ECB3262F67590079C929 /* Property List.plist in Resources */,
 				BF26268425EECB3F00C0C1BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +265,7 @@
 			files = (
 				BF26268125EECB3F00C0C1BB /* ViewController.swift in Sources */,
 				BF26267F25EECB3F00C0C1BB /* AppDelegate.swift in Sources */,
+				BF28ECB5262F6D580079C929 /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
