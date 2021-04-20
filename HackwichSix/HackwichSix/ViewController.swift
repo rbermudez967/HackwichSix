@@ -59,7 +59,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         if segue.identifier == "mySegue" {
             let s1 = segue.destination as! detailViewController
             let imageIndex = tableView.indexPathForSelectedRow?.row
-            s1.imagePass = restaurantImageDate[imageIndex]
+            s1.imagePass = restaurantImageDate[imageIndex!]
         }
     }
 }
