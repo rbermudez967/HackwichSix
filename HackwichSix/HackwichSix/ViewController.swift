@@ -42,7 +42,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         let dict = NSDictionary (contentsOfFile: path!)
         
-        restaurantImageDate = dict!.object(forKey: "restaurantImages") as! [String]
+        restaurantImageDate = dict!.object(forKey: "restaurantimages") as! [String]
         
         
     }
