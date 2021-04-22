@@ -13,10 +13,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     var restaurantImageDate = [String]()
     
-    var myFriendsArray = ["Rob", "Bud", "Chuck", "Ayva", "Kai"]
-    var myPlacesToVisit = ["Japan", "Philippines", "Honolulu","Anaheim","Florida","Colorado","London"]
-    var myFriendsHouse = ["San Francisco", "New York", "Santa Rosa", "Makawao", "Anaheim"]
-    
+    //var myFriendsArray = ["Rob", "Bud", "Chuck", "Ayva", "Kai"]
+    var myFriendsArray = ["Kapolei Kalapawai"]
+    //var myPlacesToVisit = ["Japan", "Philippines", "Honolulu","Anaheim","Florida","Colorado","London"]
+    //var myFriendsHouse = ["San Francisco", "New York", "Santa Rosa", "Makawao", "Anaheim"]
+    var myFriendsHouse = [" "]
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return myFriendsArray.count
     
